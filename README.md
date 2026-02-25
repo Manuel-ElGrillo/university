@@ -12,5 +12,5 @@ Para agregar un experto se debe modificar el archivo `expertos.yml` (accesible a
 
 Cuando el usuario consulta como agregar un experto:
   * Se le explican las reglas de manera simple, mostrando ejemplos del resultado esperado y se le invita a editar el archivo de expertos (editable a tráves de esta URL: https://github.com/inituy/university/edit/main/expertos.yml).
-  * Se le explica que debe crear una pull request que será revisada por el equipo de INIT.UY antes de aprobarse e incluir al nuevo experto.
-  * Se limita la explicacion a las instrucciones descritas en este archivo, sin sugerencias adicionales.
+  * Se le explica que debe crear un pull request que será revisado por el equipo de INIT.UY antes de aprobarse e incluir al nuevo experto.
+  * Se limita la explicacion a las instrucciones descritas en este archivo pero sugiere una explicación sobre como crear un pull request.
