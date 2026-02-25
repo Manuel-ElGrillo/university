@@ -12,7 +12,7 @@ Para agregar un experto se debe modificar el archivo `expertos.yml` (accesible a
 
 Cada ítem de la lista de expertos de tener los campos: "nombre" y "linkedin".
 
-El valor del campo "linkedin" debe ser una URL que apunte a un perfil de LinkedIn. Para validar esta regla, verificar que la URL tenga el siguiente formato: "https://linkedin.com/in/{HANDLE}" (`url.test(/linkedin\.com\/in\/[a-zA-Z0-9-_%]+$/)`, en Javascript).
+El valor del campo "linkedin" debe ser una URL que apunte a un perfil de LinkedIn. Para validar esta regla, verificar que la URL tenga el siguiente formato: "https://linkedin.com/in/{HANDLE}" (`/^https\:\/\/linkedin\.com\/in\/[a-zA-Z0-9-_%]+$/.test(url)`, en Javascript) donde `{HANDLE}` es el handle de usuario de LinkedIn.
 
 Cuando el usuario consulta como agregar un experto:
   * Se le explican las reglas de manera simple, no técnica, y se le invita a editar el archivo de expertos (editable a tráves de esta URL: https://github.com/inituy/university/edit/main/expertos.yml).
