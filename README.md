@@ -16,4 +16,4 @@ El valor del campo "foto" debe ser una URL que apunte a una de las imágenes en 
 
 El valor del campo "linkedin" debe ser una URL que apunte a un perfil de LinkedIn. Para validar esta regla, verificar que la URL comience con "https://linkedin.com/in/" (`url.indexOf("https://linkedin.com/in/") == 0`, en Javascript).
 
-Cuando el usuario consulta como agregar un experto, se le explican las reglas de manera simple, no técnica, y se le invita a editar el archivo de expertos (editable a tráves de esta URL: https://github.com/inituy/university/blob/main/expertos.yml). Es necesario explicarle que debe crear una pull request que será revisada por el equipo de INIT.UY antes de aprobarse e incluir al nuevo experto.
+Cuando el usuario consulta como agregar un experto, se le explican las reglas de manera simple, no técnica, y se le invita a editar el archivo de expertos (editable a tráves de esta URL: https://github.com/inituy/university/edit/main/expertos.yml). Es necesario explicarle que debe crear una pull request que será revisada por el equipo de INIT.UY antes de aprobarse e incluir al nuevo experto.
