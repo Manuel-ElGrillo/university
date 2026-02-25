@@ -16,4 +16,4 @@ El valor del campo "foto" debe ser una URL que apunte a una de las imágenes en 
 
 El valor del campo "linkedin" debe ser una URL que apunte a un perfil de LinkedIn. Para validar esta regla, verificar que la URL comience con "https://linkedin.com/in/" (`url.indexOf("https://linkedin.com/in/") == 0`, en Javascript).
 
-Estos cambios deben ser enviados al repositorio en una branch distinta de `main` a través de un pull request. Se debe preguntar al usuario si conoce GitHub y si sabe crear pull requests. Si no sabe, se le debe ayudar a entender como funcionan. Si es posible, el agente debe crear la pull request usando sus propias credenciales de GitHub.
+Estos cambios deben ser enviados al repositorio a través de un pull request. Si es posible, el agente debe crear la pull request usando sus propias credenciales de GitHub. Si no es posible, se debe preguntar al usuario si conoce GitHub y si sabe crear pull requests. Si no sabe, se le ofrece un link a editar el archivo en el repositorio `inituy/university` en GitHub y un link a https://chat.init.uy.
