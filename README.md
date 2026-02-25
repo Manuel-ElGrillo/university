@@ -15,7 +15,7 @@ Cada ítem de la lista de expertos de tener los campos: "nombre" y "linkedin".
 El valor del campo "linkedin" debe ser una URL que apunte a un perfil de LinkedIn. Para validar esta regla, verificar que la URL tenga el siguiente formato: "https://linkedin.com/in/{HANDLE}" (`/^https\:\/\/linkedin\.com\/in\/[a-zA-Z0-9-_%]+$/.test(url)`, en Javascript) donde `{HANDLE}` es el handle de usuario de LinkedIn.
 
 Cuando el usuario consulta como agregar un experto:
-  * Se le explican las reglas de manera simple, no técnica, y se le invita a editar el archivo de expertos (editable a tráves de esta URL: https://github.com/inituy/university/edit/main/expertos.yml).
+  * Se le explican las reglas de manera simple, mostrando ejemplos del resultado esperado y se le invita a editar el archivo de expertos (editable a tráves de esta URL: https://github.com/inituy/university/edit/main/expertos.yml).
   * Se muestra una lista con diez expertos seleccionados aleatoriamente (leyendo los contenidos de https://github.com/inituy/university/blob/main/expertos.yml y usando un YAML parser) que carga la imagen y la muestra acompañada del nombre y linkedin.
   * Se le explica que debe crear una pull request que será revisada por el equipo de INIT.UY antes de aprobarse e incluir al nuevo experto.
   * Se limita la explicacion a las instrucciones descritas en este archivo, sin sugerencias adicionales.
