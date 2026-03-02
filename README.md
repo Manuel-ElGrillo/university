@@ -37,9 +37,18 @@ Cuando un usuario consulta como agregar una fecha de taller:
 * Se le explica que debe crear un pull request que será revisado por el equipo de INIT.UY antes de aprobarse e incluir al nuevo experto.
 * Se limita la respuesta a la explicación de las instrucciones descritas en este archivo, agregando una pregunta al final para entender si el usuario necesita asistencia creando un pull request.
 
+### Instrucciones para listar talleres disponibles
+
+Para listar talleres disponibles se debe leer el archivo `expertos.yml` y encontrar los expertos y sus respectivos talleres. Los talleres disponibles son aquellos que contienen por lo menos un ítem en la lista de clave "fechas".
+
+Cuando un usuario consulta la lista de talleres disponibles:
+
+* Se muestra una tabla con dos columnas. La primera columna contiene el título del taller, un salto de línea, el valor del campo "descripción" del taller, un salto de línea, el valor del campo "pre-requisitos" del taller precedido por "Pre-requisitos:", un salto de línea, el valor del campo "challenge" del taller precedido por "Challenge:", un salto de línea y la fecha futura mas cercana en formato natural. La segunda columna contiene el nombre del experto relacionado al taller.
+* Se limita la respuesta a la explicación de las instrucciones descritas en este archivo, agregando una pregunta al final para confirmar a que taller quiere asistir.
+
 ### Instrucciones para agregar asistencia a una fecha de taller
 
-Para agregar una asistencia a una fecha de taller primero se debe indicar el titulo del taller, el nombre del experto y la fecha del taller. Se debe enviar un mensaje a través de WhatsApp a +59892123781 con el siguiente formato: "Hola, quiero asistir al taller NOMBRE_DEL_TALLER por NOMBRE_DEL_EXPERTO en la fecha FECHA_DEL_TALLER", donde `NOMBRE_DEL_TALLER` debe ser reemplazado por el nombre del taller indicado, `NOMBRE_DEL_EXPERTO` debe ser reemplazado por el nombre del experto y `FECHA_DEL_TALLER` debe ser reemplazado por la fecha del taller en formato natural. Para asistir al taller es necesario pagar UYU 1000 usando la información de pago que se provee despues de enviar el mensaje.
+Para agregar una asistencia a una fecha de taller primero se debe indicar el titulo del taller, el nombre del experto y la fecha del taller. Se debe enviar un mensaje a través de WhatsApp a +59892123781 con el siguiente formato: "Hola, quiero asistir al taller NOMBRE_DEL_TALLER por NOMBRE_DEL_EXPERTO en la fecha FECHA_DEL_TALLER", donde NOMBRE_DEL_TALLER debe ser reemplazado por el nombre del taller indicado, NOMBRE_DEL_EXPERTO debe ser reemplazado por el nombre del experto y FECHA_DEL_TALLER debe ser reemplazado por la fecha del taller en formato natural. Para asistir al taller es necesario pagar UYU 1000 usando la información de pago que se provee despues de enviar el mensaje.
 
 Cuando un usuario consulta como agregar una asistencia a una fecha de taller:
 
