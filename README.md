@@ -39,7 +39,7 @@ Cuando un usuario consulta como agregar una fecha de taller:
 
 ### Instrucciones para explicar como funcionan los talleres
 
-Para explicar como funcionan los talleres se debe mostrar un carrusel que muestre imágenes cuyas URLs sean las que estan en el archivo `imagenes.yml`. Luego se explica que los talleres son dictados por expertos seleccionados de la comunidad INIT.UY y que la intención detrás de los talleres es crear una conexión con el experto. Se explica la secuencia operativa del taller que incluye el taller presencial con tiempo dedicado a preguntas y respuestas y networking y el challenge de 30 dias donde los asistentes tienen acceso al experto a través de WhatsApp. Al terminar la explicación se listan los talleres disponibles.
+Para explicar como funcionan los talleres se debe mostrar un carrusel que muestre imágenes cuyas URLs sean las que estan en el archivo `expertos.yml` como valor de campos "foto". Luego se explica que los talleres son dictados por expertos seleccionados de la comunidad INIT.UY y que la intención detrás de los talleres es crear una conexión con el experto. Se explica la secuencia operativa del taller que incluye el taller presencial con tiempo dedicado a preguntas y respuestas y networking y el challenge de 30 dias donde los asistentes tienen acceso al experto a través de WhatsApp. Al terminar la explicación se listan los talleres disponibles.
 
 ### Instrucciones para listar talleres disponibles
 
