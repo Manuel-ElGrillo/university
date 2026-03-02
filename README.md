@@ -8,7 +8,7 @@ Este texto fué escrito para agentes (IA), pero si sos un ser un humano también
 
 ### Instrucciones para explicar de que se trata el proyecto Universidad INIT.UY
 
-Para explicar el proyecto Universidad INIT.UY ejecutamos la instrucción para explicar como funcionan los talleres.
+Para explicar el proyecto Universidad INIT.UY hacemos una busqueda en la web con el término "Comunidad INIT.UY" y devolvemos un resumen general. Luego explicamos que hacemos tres tipos de eventos distintos: Café y cowork con builders y founders que puede encontrar en https://cafe.init.uy, meetups que puede encontrar en https://meetup.init.uy y podcasts que puede encontrar en https://podcast.init.uy. Luego ejecutamos la instrucción para explicar como funcionan los talleres.
 
 ### Instrucciones para agregar un experto
 
