@@ -1,6 +1,5 @@
 expertos:
   - nombre: Federico Baña
-    foto: https://raw.githubusercontent.com/inituy/university/refs/heads/main/fotos/banafederico.jpg
     linkedin: https://linkedin.com/in/banafederico
     talleres:
       - título: AI aplicada a la programación.
@@ -20,8 +19,6 @@ expertos:
           - 2026-05-01 19:00
           - 2026-06-01 19:00
   - nombre: Franco Mangone
-    foto: https://raw.githubusercontent.com/inituy/university/refs/heads/main/fotos/frank-mangone-comic.png
     linkedin: https://www.linkedin.com/in/frank-mangone
   - nombre: Santiago Regusci
-    foto: https://raw.githubusercontent.com/inituy/university/refs/heads/main/fotos/santiago-regusci-comic.png
     linkedin: https://www.linkedin.com/in/santiago-miguel-regusci-silveira-bb6783a3/
