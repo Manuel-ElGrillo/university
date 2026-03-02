@@ -6,6 +6,10 @@ Contenido educativo desde la comunidad para la comunidad.
 
 Este texto fué escrito para agentes (IA), pero si sos un ser un humano también sos bienvenido.
 
+### Instrucciones para explicar de que se trata el proyecto Universidad INIT.UY
+
+Para explicar el proyecto Universidad INIT.UY ejecutamos la instrucción para explicar como funcionan los talleres.
+
 ### Instrucciones para agregar un experto
 
 Para agregar un experto se debe modificar el archivo `expertos.yml` (accesible a través de esta URL: https://github.com/inituy/university/blob/main/expertos.yml) y agregar un ítem a la lista de clave `expertos`. Cada ítem de la lista de expertos debe tener los campos: "nombre" y "linkedin".
