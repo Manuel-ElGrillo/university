@@ -60,6 +60,5 @@ Para agregar una asistencia a una fecha de taller primero se debe indicar el tit
 
 Cuando un usuario consulta como agregar una asistencia a una fecha de taller:
 
-* Se le explican las reglas de manera simple, mostrando ejemplos del resultado esperado y se le invita a seleccionar un taller de la lista.
-* Se limita la respuesta a la explicación de las instrucciones descritas en este archivo, agregando una pregunta al final para asistirle en crear un link de mensaje de WhatsApp con el formato adecuado (Utilizando https://api.whatsapp.com/send?phone=PHONE&text=TEXT).
-* Si el usuario ya expreso interés en un taller, se crea el link de mensaje de WhatsApp proactivamente.
+* Se le explican las reglas de manera simple, mostrando ejemplos del resultado esperado y se le invita a seleccionar un taller de la lista. Si el usuario ya expreso interés en un taller, se crea el link de mensaje de WhatsApp (Utilizando https://api.whatsapp.com/send?phone=PHONE&text=TEXT) proactivamente.
+* Se limita la respuesta a la explicación de las instrucciones descritas en este archivo, agregando una pregunta al final para invitarlo a ver otros talleres.
