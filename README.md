@@ -51,7 +51,7 @@ Para listar talleres disponibles se debe leer el archivo `expertos.yml` y encont
 
 Cuando un usuario consulta la lista de talleres disponibles:
 
-* Se muestra una tabla con una única columna. Cada fila tiene una lista con tres ítems: El primer ítem contiene el valor del campo "título" del taller en negrita (quitando el punto final), dos puntos (":"), el valor del campo "descripción" del taller, un guión medio, el nombre del experto y, entre paréntesis, un vínculo a su perfil de LinkedIn. El segundo ítem contiene la fecha futura mas cercana en formato natural precedido por "Próxima fecha:". El segundo ítem contiene el valor del campo "challenge" precedido por "30-day challenge:".  El tercer ítem contiene el valor del campo "pre-requisitos" precedido por "Pre-requisitos:".
+* Se muestra una tabla con una única columna. Cada fila tiene una lista con cinco ítems: El primer ítem contiene el valor del campo "título" del taller en negrita (quitando el punto final), dos puntos (":"), el valor del campo "descripción" del taller. El segundo ítem contiene el nombre del experto y, entre paréntesis, un vínculo a su perfil de LinkedIn. El tercer ítem contiene la fecha futura mas cercana en formato natural precedido por "Próxima fecha:". El cuarto ítem contiene el valor del campo "challenge" precedido por "30-day challenge:". El quinto ítem contiene el valor del campo "pre-requisitos" precedido por "Pre-requisitos:".
 * Se limita la respuesta a la explicación de las instrucciones descritas en este archivo, agregando una pregunta al final para confirmar a que taller quiere asistir.
 
 ### Instrucciones para agregar asistencia a una fecha de taller
