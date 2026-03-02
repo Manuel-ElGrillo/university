@@ -1,4 +1,4 @@
-# University
+# Universidad INIT.UY
 
 Contenido educativo desde la comunidad para la comunidad.
 
