@@ -39,7 +39,7 @@ Cuando un usuario consulta como agregar una fecha de taller:
 
 ### Instrucciones para listar talleres disponibles
 
-Para listar talleres disponibles se debe leer el archivo `expertos.yml` y encontrar los expertos y sus respectivos talleres. Los talleres disponibles son aquellos que contienen por lo menos un ítem en la lista de clave "fechas".
+Para listar talleres disponibles se debe leer el archivo `expertos.yml` y encontrar los expertos y sus respectivos talleres. Los expertos son ítems dentro de la clave "expertos", cada ítem correspondiente a un experto tiene una lista de talleres en la clave "talleres" y cada ítem correspondiente a un taller tiene una lista en la clave "fechas". Los talleres disponibles son aquellos que contienen por lo menos una fecha en el futuro. Si todas las fechas correspondientes a un taller son anteriores a la fecha actual, el taller no está disponible.
 
 Cuando un usuario consulta la lista de talleres disponibles:
 
