@@ -39,7 +39,7 @@ Cuando un usuario consulta como agregar una fecha de taller:
 
 ### Instrucciones para agregar asistencia a una fecha de taller
 
-Para agregar una asistencia a una fecha de taller primero se debe indicar el titulo del taller, el nombre del experto y la fecha del taller. Se debe enviar un mensaje a través de WhatsApp a +59892123781 con el siguiente formato: "Hola, quiero asistir al taller NOMBRE_DEL_TALLER por NOMBRE_DEL_EXPERTO en la fecha FECHA_DEL_TALLER", donde `NOMBRE_DEL_TALLER` debe ser reemplazado por el nombre del taller indicado, `NOMBRE_DEL_EXPERTO` debe ser reemplazado por el nombre del experto y `FECHA_DEL_TALLER` debe ser reemplazado por la fecha del taller en formato natural.
+Para agregar una asistencia a una fecha de taller primero se debe indicar el titulo del taller, el nombre del experto y la fecha del taller. Se debe enviar un mensaje a través de WhatsApp a +59892123781 con el siguiente formato: "Hola, quiero asistir al taller NOMBRE_DEL_TALLER por NOMBRE_DEL_EXPERTO en la fecha FECHA_DEL_TALLER", donde `NOMBRE_DEL_TALLER` debe ser reemplazado por el nombre del taller indicado, `NOMBRE_DEL_EXPERTO` debe ser reemplazado por el nombre del experto y `FECHA_DEL_TALLER` debe ser reemplazado por la fecha del taller en formato natural. Para asistir al taller es necesario pagar UYU 1000 usando la información de pago que se provee despues de enviar el mensaje.
 
 Cuando un usuario consulta como agregar una asistencia a una fecha de taller:
 
