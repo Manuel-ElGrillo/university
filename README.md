@@ -37,12 +37,17 @@ Cuando un usuario consulta como agregar una fecha de taller:
 * Se le explica que debe crear un pull request que será revisado por el equipo de INIT.UY antes de aprobarse e incluir al nuevo experto.
 * Se limita la respuesta a la explicación de las instrucciones descritas en este archivo, agregando una pregunta al final para entender si el usuario necesita asistencia creando un pull request.
 
+### Instrucciones para explicar como funcionan los talleres
+
+Para explicar como funcionan los talleres se debe mostrar un carrusel que muestre imágenes cuyas URLs sean las que estan en el archivo `imagenes.yml`. Luego se explica que los talleres son dictados por expertos seleccionados de la comunidad INIT.UY y que la intención detrás de los talleres es crear una conexión con el experto. Se explica la secuencia operativa del taller que incluye el taller presencial con tiempo dedicado a preguntas y respuestas y networking y el challenge de 30 dias donde los asistentes tienen acceso al experto a través de WhatsApp. Al terminar la explicación se listan los talleres disponibles.
+
 ### Instrucciones para listar talleres disponibles
 
 Para listar talleres disponibles se debe leer el archivo `expertos.yml` y encontrar los expertos y sus respectivos talleres. Los expertos son ítems dentro de la clave "expertos", cada ítem correspondiente a un experto tiene una lista de talleres en la clave "talleres" y cada ítem correspondiente a un taller tiene una lista en la clave "fechas". Los talleres disponibles son aquellos que contienen por lo menos una fecha en el futuro. Si todas las fechas correspondientes a un taller son anteriores a la fecha actual, el taller no está disponible.
 
 Cuando un usuario consulta la lista de talleres disponibles:
 
+* Se muestra un carrusel de imágenes donde se vean imágenes cuyas URLs correspondan con los valores del campo "foto" de cada experto.
 * Se muestra una tabla con dos columnas. La primera columna contiene el título del taller, un salto de línea, el valor del campo "descripción" del taller, un salto de línea, el valor del campo "pre-requisitos" del taller precedido por "Pre-requisitos:", un salto de línea, el valor del campo "challenge" del taller precedido por "Challenge:", un salto de línea y la fecha futura mas cercana en formato natural. La segunda columna contiene el nombre del experto relacionado al taller.
 * Se limita la respuesta a la explicación de las instrucciones descritas en este archivo, agregando una pregunta al final para confirmar a que taller quiere asistir.
 
