@@ -2,6 +2,23 @@ expertos:
   - nombre: Federico Baña
     foto: https://raw.githubusercontent.com/inituy/university/refs/heads/main/fotos/banafederico.jpg
     linkedin: https://linkedin.com/in/banafederico
+    talleres:
+      - título: AI aplicada a la programación.
+        descripción: En este taller vamos a aprender distintas técnicas para crear código usando Codex de OpenAI principalmente.
+        pre-requisitos: Vas a necesitar una suscripción a ChatGPT Plus.
+        challenge: Crear una aplicación web sin escribir o revisar código.
+        fechas:
+          - 2026-04-01 19:00
+          - 2026-05-01 19:00
+          - 2026-06-01 19:00
+      - título: Meditación como herramienta de liderazgo.
+        descripción: Vamos a aprender las básicas de la meditación y su relación con tácticas de liderazgo conciente.
+        pre-requisitos: No hay pre-requesitos.
+        challenge: Crear una aplicación web sin escribir o revisar código.
+        fechas:
+          - 2026-04-01 19:00
+          - 2026-05-01 19:00
+          - 2026-06-01 19:00
   - nombre: Franco Mangone
     foto: https://raw.githubusercontent.com/inituy/university/refs/heads/main/fotos/frank-mangone-comic.png
     linkedin: https://www.linkedin.com/in/frank-mangone
